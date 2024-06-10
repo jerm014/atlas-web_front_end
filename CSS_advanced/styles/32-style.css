@@ -576,7 +576,7 @@ a:active {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-image img {
