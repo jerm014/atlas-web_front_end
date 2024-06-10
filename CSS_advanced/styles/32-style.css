@@ -481,6 +481,7 @@ a:active {
     background-color: var(--transition-duration);
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-cubic-bezier);
+    transition-property: color, background-color;
 }
 
 .visually-hidden {
